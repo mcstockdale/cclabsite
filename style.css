@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body{
+    background-color: black;
+  }
+
+  h1{
+      text-align: center;
+      font-family: helvetica;
+      color: white;
+      
+  }
+
+.centered{
+  font-family: Helvetica;
+  color: white;
+  background-color: black;
+  position: relative;
+  z-index: 2;
+  
+  
+}
+
+.topimage{
+  width: 100px;
+}
+
+.columnA {
+    float: left;
+    width: 50%;
+    padding: 5px;
+    z-index: 1;
+    position:relative;
+  }
+
+  .columnB {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  #facts{
+    font-family: Helvetica;
+    color: white;
+    background-color: darkslategray;
+
+  }
